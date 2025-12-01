@@ -1,0 +1,10 @@
+{
+  "name": "task-1",
+  "scripts": {
+    "test:cjs": "node -r './loader.cjs' ./test/index.cjs",
+    "test:esm": "node --import ./register.mjs ./test/index.mjs"
+  },
+  "dependencies": {
+    "yaml": "^2.8.2"
+  }
+}

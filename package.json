@@ -1,0 +1,16 @@
+{
+  "name": "infra-course_v2",
+  "version": "1.0.0",
+  "description": "Домашки для курса инфраструктура Frontend 2 поток",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kholstinin/infra-v2-homework.git"
+  },
+  "packageManager": "yarn@4.12.0",
+  "devDependencies": {
+    "prettier": "^3.7.3"
+  },
+  "workspaces": [
+    "tasks/*"
+  ]
+}
