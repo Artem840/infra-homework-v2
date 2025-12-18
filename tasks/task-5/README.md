@@ -24,7 +24,7 @@ API CDP обернуто в простую библиотеку [chrome-remote-i
 
 Для запуска обязательно используйте дебаггер, API CDP гигантское.
 
-`node --inspect-wait ./test/cdp.js`
+`node --inspect-wait ./cdp.js`
 
 [Chrome DevTools Protocol](https://chromedevtools.github.io/devtools-protocol/tot/DOM/)
 
